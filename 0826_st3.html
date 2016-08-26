@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	#div1
+	<div id="div1"></div>
+
+	p.div1#
+	<p class="div1" id=""></p>
+
+	p>p
+	<p>
+		<p></p>
+	</p>
+
+	p+p
+	<p></p>
+	<p></p>
+
+	table>(thead>tr>th*6)+(tbody>tr>th*4)
+	<table>
+		<thead>
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+		</tbody>
+	</table>
+
+	p[data='p_biaoqian']
+	<p data="p_biaoqian"></p>
+
+	ul>li{$}*5
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+	</ul>
+
+	ul>li{$@-}*5
+	<ul>
+		<li>5</li>
+		<li>4</li>
+		<li>3</li>
+		<li>2</li>
+		<li>1</li>
+	</ul>
+
+	p{你好}
+	<p>你好</p>
+
+</body>
+</html>
